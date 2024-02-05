@@ -1,0 +1,90 @@
+1. Sort the array 
+const arr = ['muthu','zia', 'karan',12,654,'678'];
+----------------------------------------------------------------------------------
+2. Below is the interface, create a new interface B by extending interface A which does not contain z:string 
+interface A{
+    x:string,
+    y:string,
+    z:string
+}
+--------------------------------------------------------------------------------------------
+3. Tell the output of the below code - 
+function func1(){
+setTimeout(()=>{
+   console.log(x);
+   console.log(y);
+},3000);
+var x = 2;
+let y = 12;
+}
+func1();
+--------------------------
+var a= 10;
+function abc(){
+   var a =20 
+   console.log(this.a)
+}
+--------------------------
+const sample = [3,5,3,2,6,3,2,4,1,2];
+sample.push(10);
+sample = [];
+console.log(sample);
+-------------------------
+console.log(a);
+let a = 5;
+-------------------------
+console.log(a);
+var a = 5;
+------------------------
+console.log(a);
+/// 5 -6 lines
+let a = 5;
+-----------------------
+console.log(1);
+setTimeout(function() {
+  console.log(2)
+}, 100);
+console.log(3);
+----------------------
+console.log(1);
+setTimeout(function() {
+  console.log(2)
+}, 0);
+console.log(3);
+----------------------------------------------------------------------------------------------------------------------
+4. Explaination and write pseudo code for creating a form with 3 fields(First name, Last name and Address) and with a submit button, once the user submit the form the submitted value should populate in the table. Use functional component with Typescript. 
+------------------------------------------------------------
+5. Filter the below JSON to get 
+a] All the employees who has joined before 2022
+b] All the employees who has joined before today
+const empData = [{name:"Ashish", doj:"01-01-2020"},{name:"Riya", doj:"01-01-2022"}, {name:"Mukund", doj:"01-01-2015"}] 
+-------------------------------------------------------------------------------------------------------------------------------------
+6. From below array
+a] Find the sum of array - I have used reduce function
+b] Find sub-array whose sum is 0, like [2,1,-3] - I have used 2 for loops and reduce function, I have wrote the pseudo code 
+let array = [4,2,1,-3,5]
+----------------------------------------------------------------------------------------------------------------------------
+
+	1. What is the difference between normal functions and arrow functions?
+	2. What is the difference between map and filter?
+	3. What is REST and Spread operator ? Write syntax ?
+	4. What is the difference between NULL and defined ?
+	5. What is Promises ?
+	6. Tell me about React ?
+	7. What is virtual DOM?
+	8. What are the life cycle methods? Step wise
+	9. What is the difference between class based component and functional base component ?
+	10. What is the useState and useReducer and write the syntax of both?
+	11. Explain the flow of Redux.
+	12. How you will pass the data from redux store to class based component and functional based component ?
+	13. What is the useSelector ?
+	14. What are hooks we have in React ?
+	15. What is the difference between useCallback and useMemo ?
+	16. When did you use the redux, you are calling actions. So how the reducer know that the data is changed ? 
+	17. What is the difference between let, const and var ?
+	18. How will you call the API in the react component ?
+	19. Let's suppose I want to call that API only the single time. Then how we will call that?
+	20. Have you work on the typescript ?
+	21. Have you work on the unit test cases ?
+
+-------------------------------------------------------------------------------------------------------------------------------------------
