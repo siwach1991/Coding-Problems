@@ -72,7 +72,7 @@ let array = [4,2,1,-3,5]
 	5. What is Promises ?
 	6. Tell me about React ?
 	7. What is virtual DOM?
-	8. What are the life cycle methods? Step wise
+	8.
 	9. What is the difference between class based component and functional base component ?
 	10. What is the useState and useReducer and write the syntax of both?
 	11. Explain the flow of Redux.
@@ -90,3 +90,26 @@ let array = [4,2,1,-3,5]
 ------------------------------------------------------------------------------------------------------------------------------------------
 http://es6-features.org/#BlockScopedVariables
 ------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+1)can i make component inside a component - yes
+2)we can not change value of props in child component
+3)High order component - a component take component as param and return output as component
+4)controlled component in a form all input param controlled by react state called a controlled component
+5)uncontroller component - input filed controlled by dom and ref 
+6)Pure component - which do not rerenderd when value of state and prop has been updated with same value
+7)can we pas html as props - yes
+8)dump a component where we are not using state
+9)life cycle methods Step wise -> predefine method of component  that can moniter and update the compoent
+  a) mount(componentdidmount) b)updating(componentdidupdate) c)unmount(componentwillunmount)
+ in functional component useEffect(()=>{ }) hook will use for all lifecylce method
+
+ b)we can not call useEffect on button click but we can call after clicking a button we are updating the
+ state then useEffect will call
+10)we can not access state outside the component
+11)lifting compoenent we passing data between parent to child and child to parent component
+
+
+
+
