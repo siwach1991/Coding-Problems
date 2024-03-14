@@ -109,6 +109,36 @@ http://es6-features.org/#BlockScopedVariables
  state then useEffect will call
 10)we can not access state outside the component
 11)lifting compoenent we passing data between parent to child and child to parent component
+----------------------------------------------------------------------------------------------------------
+
+Arrays , time complexities based questions
+Why react is important?
+What is redux? Why redux? How did u used in your project ? What was the usecase?
+Difference between usememo usecallback
+What is customized hook?
+How to use?
+Where and how you implemented in project?
+Code snippets
+Code snippets 2
+Code for Duplicate elements remove from array
+What is closure ? Where you used ? How you used?
+What is procedure for deployment
+Difference between saga and thunk
+Write code where crud operations are executed and api get fetch
+
+Difference between class based component & function based component
+Life cycle methods using use effect
+Difference between normal function & arrow function
+Hoisting in javascript
+Event bubbling & stop propagation
+1.What is the difference between class based and functional components.
+2.Why to use key in React lists?
+3.Write the node js query to implement pagination
+4.Where to use class components and where to use function components
+5.How to handle errors in React app?
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
