@@ -137,9 +137,203 @@ Event bubbling & stop propagation
 4.Where to use class components and where to use function components
 5.How to handle errors in React app?
 
-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Isha --- Manoj1
+
+Write a component different page and render it in App component.
+Pass the prop and show it
+Write input element if its empty hide the component else show it if user add the value in input field
+
+----------------------------------------------------------------------------------------------------------------------
+Rajiv ranjan
+Javascript
+Closures
+Output questions
+Coding Question - [2,0,12,0,4,0] // [2,12,4,0,0,0]
+NodeJS
+Event Loop
+Output based questions
+React
+Class vs Function
+Lifeycle
+Use effects with life cycles
+React.memo vs usememo
+
+-----------------------------------------------------------------------------------------
+what is difference between Div and Span?
+where you have used span?
+what is event loop?
+HTML5 features? major difference between HTML5 and old HTML;
+Difference between flexbox and Grid?
+What is inline element?
+scss
+Lifecycle method (class based and functional component)
+What is redux?
+Hooks
+when we click on buttons? how redux works?
+difference between rem, em
+ 
+code sample and output
+ 
+let x = "outer value";
+(function() {
+  console.log(x);
+  let x = "inner value";
+}());
+ 
+========================
+console.log("First");
+setTimeout(() => {
+  console.log("Second!");
+}, 0);
+console.log("Third");
+ 
+===========================
+console.log(typeof undefined);
+console.log(typeof null);
+ 
+===========================
+console.log(0 ?? 1)
+console.log('' ?? 'not-empty')
+ 
+==============================
+ 
+write CSS code for it
+ 
+<div class='parent'>
+   <div class='child1'>Child 1</div>
+   <div class='child2'>Child 2</div>
+</div>
+-------------------------------------------------------------------------------------------------------------------------------
+
+1.  function foo({ a1 = 3, a2 = 4, a3 = 5, a4 = 6 }) {
+return { a1, a2, a4 };
+}
+foo({ a1: "test", a2: null, a3: "test2" });
+ 
+answer :   {
+  a1: "test",
+  a2: null,
+  a4: 6
+}
+ 
+2. useEffect(return () => ...)
+useEffect(() => ..., []);
+useEffect(() => ..., [someVar]);  what is this and how it will work meaning how render will happen
+ 
+ 
+3. find the smallest number from the array not using any array methods using loops what will be the time complexity
+ 
+4. write a code to print 1 2 3 4 5 6 7 8 9 10 after 1 sec
+answer :
+ 
+const smallest =()=>{
+for(var i=1;i<=10;i++){
+setTimeout(()=>{
+console.log(i)
+},1000)
+}
+ 
+}
+console.log(smallest())   
+ 
+they will ask what are those two concepts inside this program so first is closure second is scope they will ask why you use let instead of var in above program
+ 
+if i dont wnat to use let how can i solve this using var only so the answer is using closure only.
+ 
+5 . if (x) {
+useEffect(fn);
+}    Will this work : anwer is we should not use any hook inside conditional loops
+
+1. what version control you have used in your project 
+all the commands in git
+if i have current dev branch and commited four diffrent codes how to get the second one code (how u will fetch the code)
+git cherrypick
+ 
+2. ES6 features
+3. var let const difference
+4. == & ===
+5. passbyvale vs passbyrefrence
+6. call apply bind
+7.data types in javascript primitive and non-primitive
+8. functiona vs class component
+9. lifecycle method of class components and how lifecycle works in useEffect
+10.hav you used Redux what is the flow of redux
+11. connect ,mapstatetoprops and mapdispatchtoprops
+12. state vs props
 
 
 
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+1.What is React and why we use React ?
+2.What is Redux?
+3.how to optimize performance in react ?
+4.useMemo and memo ? In which scenario we use the memo?
+5.Features of Html5 ?
+6.what indicates HTML5 ?
+7.Semantic & Non-semantic Tags?
+8.what is box model in css ?
+9.difference between inline and inline block ?
+10.what is flexbox and grid ?
+11.difference between display and display-none ?
+12.How to align centre using flexBox?
+13.what is saas & what is the extend keyword in saas?
+14.What is closure and promise ?
+15.What is object.freeze() and object.seal() ?
+16.If we have multiple api request then how to measure performance of react ?
+17.forEach & map()? which performs well ?
+18.what is the spread operator?
+19.What is the component lifecycle of react in finctional component?
+20.What is pure function ?
+21.setState() is synchronized or asynchronized?
+22.what is prop drilling and how to stop it ?
+23.what is lazyloading ?
+24. what is package.json{} ?
+25.what is package.lock.json{} ?
+26.How react works ?
+27.when we update element then how react works ?
+ 
+Coding Question :
+28.we have 3 buttons add,update and delete and display list of employees using react hooks useMemo and useCallback in React & Typsescript 
+
+29. Make intial letter of words into capital letter of string?
+const str = "welcome to the world";
+
+30.design HTML & CSS for below :
+we have 3 div it shoild be horitzal and vertically centre in web page , havinfg same width and the height
+
+31.what is the output of snippet :
+(function(){
+   setTimeout(function(){
+       console.log(2)}, 1000);     
+   setTimeout(function(){
+       console.log(3)}, 0);     
+   console.log(4);
+})();
+ 
+32.Remove Duplicates from below :
+const originalArray = [
+{ id: 1, name: "John" },
+{ id: 2, name: "Alice" },
+{ id: 1, name: "John" },
+{ id: 3, name: "Bob" },
+{ id: 2, name: "Alice" },
+];
+ 
+33.what is the output of following code snippet ?
+console.log(1 +  "2" + "2");
+ 
+console.log(1 +  +"2" + "2");
+ 
+console.log(1 +  -"1" + "2");
+ 
+console.log(+"1" +  "1" + "2");
+ 
+console.log( "A" - "B" + "2");
+ 
+console.log( "A" - "B" + 2);
 
 
